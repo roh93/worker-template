@@ -1,5 +1,7 @@
 {
   "input": {
-    "name": "John Doe"
+    "question": "What are the top 5 products by total revenue in 2024?",
+    "schema": "CREATE TABLE orders(order_id INT, product_id INT, price NUMERIC, qty INT, created_at DATE);\nCREATE TABLE products(id INT, name TEXT);",
+    "max_new_tokens": 200
   }
 }
