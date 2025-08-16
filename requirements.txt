@@ -1,3 +1,5 @@
 # Required Python packages get listed here, one per line.
-
+transformers>=4.39
+torch>=2.1
+accelerate>=0.28
 runpod~=1.7.9
